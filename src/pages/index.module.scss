@@ -33,6 +33,11 @@ canvas {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   padding: 10px;
 }
+@media only screen and (max-width: 600px) {
+  .demos {
+    grid-template-columns: 1fr;
+  }
+}
 .demo a {
   align-items: center;
   border: 2px solid #001f3f;
@@ -196,7 +201,7 @@ canvas {
       -2.6208764473832513px 0 1px rgba(255, 0, 80, 0.3), 0 0 3px;
   }
 }
-.crt::after {
+.crt:hover::after {
   animation: flicker 0.15s infinite;
   background: rgba(18, 16, 16, 0.1);
   bottom: 0;
@@ -210,7 +215,7 @@ canvas {
   top: 0;
   z-index: 2;
 }
-.crt::before {
+.crt:hover::before {
   background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%),
     linear-gradient(
       90deg,
@@ -229,6 +234,6 @@ canvas {
   top: 0;
   z-index: 2;
 }
-.crt {
+.crt:hover {
   animation: textShadow 1.6s infinite;
 }

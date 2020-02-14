@@ -5,10 +5,10 @@ import JsDos from "../components/JsDos"
 // @ts-ignore
 import data from "../../content/data.json"
 import { IconNames } from "@blueprintjs/icons"
-const basicTemplate = props => {
+const basicTemplate = (props: any) => {
     const [done, setDone] = useState(false)
     const [isOpen, setIsOpen] = useState(false)
-    const nav = (newFile) => {
+    const nav = (newFile: any) => {
         navigate(`/${newFile}`)
     }
 
@@ -54,8 +54,7 @@ const basicTemplate = props => {
                 onConfirm={playItAgainSam}
             >
                 <p>
-                    Are you sure you want to move <b>filename</b> to Trash? You will be able to restore it later,
-                    but it will become private to you.
+                    Back to listing?
                     </p>
             </Alert>
             {!done && <JsDos cycles={cycles} file={file} command={command} keypresses={keypresses} setDone={setDone} />}

@@ -1,8 +1,6 @@
 import React, { useRef, useEffect, useState } from "react";
 
-import { DosFactory } from "js-dos";
-require("js-dos");
-const Dos = (window as any).Dos as DosFactory;
+import Dos, { DosFactory } from "../vendor/js-dos";
 
 
 const JsDos = ({ command, file, keypresses, setDone }: any) => {

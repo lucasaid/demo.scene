@@ -1,8 +1,7 @@
 import React, { useRef, useEffect, useState } from "react";
 
-import { DosFactory } from "js-dos";
-require("js-dos");
-const Dos = (window as any).Dos as DosFactory;
+import Dos, { DosFactory } from "../vendor/js-dos";
+
 
 
 const JsDos = ({ cycles = 24000, command, file, keypresses, setDone }: any) => {
@@ -22,10 +21,10 @@ const JsDos = ({ cycles = 24000, command, file, keypresses, setDone }: any) => {
                 // },
                 cycles,
                 wdosboxUrl: "https://js-dos.com/6.22/current/wdosbox.js",
-            }).then((runtime) => {
+            }).then((runtime: any) => {
                 return runtime.fs.extract(`/demos/zipped/${file}.zip`).then(() => {
                     return runtime.main(["-c", `${command}`, "-c", "exit"])
-                        .then((ci) => {
+                        .then((ci: any) => {
                             // setInstance(ci)
                             if (keypresses) {
                                 let time = 0;
@@ -40,7 +39,7 @@ const JsDos = ({ cycles = 24000, command, file, keypresses, setDone }: any) => {
                             }
                             let temp = ""
                             const regex = /C:\\>exit/gi
-                            ci.listenStdout((data) => {
+                            ci.listenStdout((data: any) => {
                                 temp = temp + data
                                 if (regex.test(temp)) {
                                     setDone(true)
@@ -52,7 +51,7 @@ const JsDos = ({ cycles = 24000, command, file, keypresses, setDone }: any) => {
                 });
             })
             return () => {
-                ciPromise.then(ci => { ci.exit() });
+                ciPromise.then((ci: any) => { ci.exit() });
             };
         }
     }, [ref]);

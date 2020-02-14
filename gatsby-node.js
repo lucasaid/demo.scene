@@ -92,11 +92,14 @@ exports.sourceNodes = async ({
   createContentDigest,
 }) => {
   // We'll make the newNode object here for clarity
-  const zip = new StreamZip({
-    file: "./static/demos/demos.zip",
-    storeEntries: true,
-  })
-  const entries = await getEntries(zip)
+  let entries = data
+  if (fs.existsSync("./static/demos/demos.zip")) {
+    const zip = new StreamZip({
+      file: "./static/demos/demos.zip",
+      storeEntries: true,
+    })
+    entries = await getEntries(zip)
+  }
 
   entries.map(entry => {
     actions.createNode({
@@ -135,7 +138,7 @@ exports.createSchemaCustomization = ({ actions }) => {
         keypresses: Keypress,
         size: String!,
         cycles: String!,
-        screenshot: String!,
+        screenshot: String,
       }
 
       """
