@@ -1,0 +1,17 @@
+[
+  {
+    "file": "drift.zip",
+    "command": "drift.exe",
+    "keypresses": [40, 40, 13, 40, 13, 40, 40, 13, 40, 40, 40, 40, 40, 40, 13]
+  },
+  {
+    "file": "second.zip",
+    "command": "second.exe",
+    "keypresses": []
+  },
+  {
+    "file": "EQUALIZ.zip",
+    "command": "EQUALIZ.exe",
+    "keypresses": []
+  }
+]

@@ -1,0 +1,13 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended", "tslint-react", "tslint-config-prettier"],
+    "rules": {
+        "interface-name": [true, "always-prefix"],
+        "member-access": [true, "no-public"],
+        "no-var-requires": false,
+        "object-literal-sort-keys": false,
+        "no-string-literal": false,
+        "no-console": false,
+        "variable-name": false
+    }
+}
