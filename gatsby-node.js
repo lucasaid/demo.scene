@@ -65,6 +65,8 @@ const getEntries = async zip => {
               size: entry.size,
               cycles: 24000,
               screenshot: null,
+              nsfw: false,
+              description: "",
             }
             data.push(found)
           }
@@ -100,8 +102,8 @@ exports.sourceNodes = async ({
     })
     entries = await getEntries(zip)
   }
-
   entries.map(entry => {
+    console.log(entry.screenshot + "hello")
     actions.createNode({
       ...entry,
       keypresses: entry.keypresses
@@ -139,6 +141,8 @@ exports.createSchemaCustomization = ({ actions }) => {
         size: String!,
         cycles: String!,
         screenshot: String,
+        nsfw: Boolean,
+        description: String
       }
 
       """

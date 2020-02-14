@@ -25,7 +25,9 @@
         { "key": 13 }
       ]
     },
-    "screenshot": "/screenshots/drift.exe.png"
+    "screenshot": "/screenshots/drift.exe.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "EEQUALI.EXE",
@@ -34,7 +36,9 @@
     "keypresses": null,
     "size": 6618,
     "cycles": 24000,
-    "screenshot": "/screenshots/EEQUALI.EXE.png"
+    "screenshot": "/screenshots/EEQUALI.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "CYBER!.COM",
@@ -43,7 +47,9 @@
     "keypresses": null,
     "size": 3497,
     "cycles": 24000,
-    "screenshot": "/screenshots/CYBER!.COM.png"
+    "screenshot": "/screenshots/CYBER!.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "_WAIT_4.EXE",
@@ -52,7 +58,9 @@
     "keypresses": null,
     "size": 4404,
     "cycles": 24000,
-    "screenshot": "/screenshots/_WAIT_4.EXE.png"
+    "screenshot": "/screenshots/_WAIT_4.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "WAISSCPX.COM",
@@ -61,7 +69,9 @@
     "keypresses": null,
     "size": 2609,
     "cycles": 24000,
-    "screenshot": "/screenshots/WAISSCPX.COM.png"
+    "screenshot": "/screenshots/WAISSCPX.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "EQUALI2.EXE",
@@ -70,7 +80,9 @@
     "keypresses": null,
     "size": 3788,
     "cycles": 24000,
-    "screenshot": "/screenshots/EQUALI2.EXE.png"
+    "screenshot": "/screenshots/EQUALI2.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "second.exe",
@@ -79,7 +91,9 @@
     "keypresses": null,
     "size": 47235,
     "cycles": 24000,
-    "screenshot": "/screenshots/second.exe.png"
+    "screenshot": "/screenshots/second.exe.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "ERMANWA.EXE",
@@ -88,7 +102,9 @@
     "keypresses": null,
     "size": 6604,
     "cycles": 24000,
-    "screenshot": "/screenshots/ERMANWA.EXE.png"
+    "screenshot": "/screenshots/ERMANWA.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "AMITY.EXE",
@@ -97,7 +113,9 @@
     "keypresses": null,
     "size": 8064,
     "cycles": 24000,
-    "screenshot": "/screenshots/AMITY.EXE.png"
+    "screenshot": "/screenshots/AMITY.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "Cnf-97.com",
@@ -106,7 +124,9 @@
     "keypresses": null,
     "size": 3571,
     "cycles": 24000,
-    "screenshot": "/screenshots/Cnf-97.com.png"
+    "screenshot": "/screenshots/Cnf-97.com.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "BORSTJES.EXE",
@@ -115,7 +135,9 @@
     "keypresses": null,
     "size": 4970,
     "cycles": 24000,
-    "screenshot": "/screenshots/BORSTJES.EXE.png"
+    "screenshot": "/screenshots/BORSTJES.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "!WAREZ!.EXE",
@@ -124,7 +146,9 @@
     "keypresses": null,
     "size": 4162,
     "cycles": 24000,
-    "screenshot": "/screenshots/!WAREZ!.EXE.png"
+    "screenshot": "/screenshots/!WAREZ!.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "ANYWAY.EXE",
@@ -133,7 +157,9 @@
     "keypresses": null,
     "size": 3564,
     "cycles": 24000,
-    "screenshot": "/screenshots/ANYWAY.EXE.png"
+    "screenshot": "/screenshots/ANYWAY.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "VC.COM",
@@ -142,7 +168,9 @@
     "keypresses": null,
     "size": 1946,
     "cycles": 24000,
-    "screenshot": "/screenshots/VC.COM.png"
+    "screenshot": "/screenshots/VC.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "WETONE.EXE",
@@ -151,7 +179,9 @@
     "keypresses": null,
     "size": 21130,
     "cycles": 24000,
-    "screenshot": "/screenshots/WETONE.EXE.png"
+    "screenshot": "/screenshots/WETONE.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "FJ!FLOOD.EXE",
@@ -160,7 +190,9 @@
     "keypresses": null,
     "size": 5995,
     "cycles": 24000,
-    "screenshot": "/screenshots/FJ!FLOOD.EXE.png"
+    "screenshot": "/screenshots/FJ!FLOOD.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "SATURN.COM",
@@ -169,7 +201,9 @@
     "keypresses": null,
     "size": 2356,
     "cycles": 24000,
-    "screenshot": "/screenshots/SATURN.COM.png"
+    "screenshot": "/screenshots/SATURN.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "PIR8.EXE",
@@ -178,7 +212,9 @@
     "keypresses": null,
     "size": 8245,
     "cycles": 24000,
-    "screenshot": "/screenshots/PIR8.EXE.png"
+    "screenshot": "/screenshots/PIR8.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "F!-APPLY.EXE",
@@ -187,7 +223,9 @@
     "keypresses": null,
     "size": 9759,
     "cycles": 24000,
-    "screenshot": "/screenshots/F!-APPLY.EXE.png"
+    "screenshot": "/screenshots/F!-APPLY.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "KALOJA.EXE",
@@ -196,7 +234,9 @@
     "keypresses": null,
     "size": 7516,
     "cycles": 24000,
-    "screenshot": "/screenshots/KALOJA.EXE.png"
+    "screenshot": "/screenshots/KALOJA.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "LETSDOIT.EXE",
@@ -205,7 +245,9 @@
     "keypresses": null,
     "size": 5778,
     "cycles": 24000,
-    "screenshot": "/screenshots/LETSDOIT.EXE.png"
+    "screenshot": "/screenshots/LETSDOIT.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "ENTIFRI.EXE",
@@ -214,7 +256,9 @@
     "keypresses": null,
     "size": 5466,
     "cycles": 24000,
-    "screenshot": "/screenshots/ENTIFRI.EXE.png"
+    "screenshot": "/screenshots/ENTIFRI.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "RECORDS.EXE",
@@ -223,7 +267,9 @@
     "keypresses": null,
     "size": 12553,
     "cycles": 24000,
-    "screenshot": "/screenshots/RECORDS.EXE.png"
+    "screenshot": "/screenshots/RECORDS.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "CALL_NOW.COM",
@@ -232,7 +278,9 @@
     "keypresses": null,
     "size": 3995,
     "cycles": 24000,
-    "screenshot": "/screenshots/CALL_NOW.COM.png"
+    "screenshot": "/screenshots/CALL_NOW.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "BROEKJE.EXE",
@@ -241,7 +289,9 @@
     "keypresses": null,
     "size": 9623,
     "cycles": 24000,
-    "screenshot": "/screenshots/BROEKJE.EXE.png"
+    "screenshot": "/screenshots/BROEKJE.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "BASS-X!.EXE",
@@ -250,7 +300,9 @@
     "keypresses": null,
     "size": 9662,
     "cycles": 24000,
-    "screenshot": "/screenshots/BASS-X!.EXE.png"
+    "screenshot": "/screenshots/BASS-X!.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "BURN_IT!.EXE",
@@ -259,7 +311,9 @@
     "keypresses": null,
     "size": 25759,
     "cycles": 24000,
-    "screenshot": "/screenshots/BURN_IT!.EXE.png"
+    "screenshot": "/screenshots/BURN_IT!.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "DL-INFO.EXE",
@@ -268,7 +322,9 @@
     "keypresses": null,
     "size": 7861,
     "cycles": 24000,
-    "screenshot": "/screenshots/DL-INFO.EXE.png"
+    "screenshot": "/screenshots/DL-INFO.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "DINN.EXE",
@@ -277,7 +333,9 @@
     "keypresses": null,
     "size": 5742,
     "cycles": 24000,
-    "screenshot": "/screenshots/DINN.EXE.png"
+    "screenshot": "/screenshots/DINN.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "AREZDAN.EXE",
@@ -286,7 +344,9 @@
     "keypresses": null,
     "size": 9645,
     "cycles": 24000,
-    "screenshot": "/screenshots/AREZDAN.EXE.png"
+    "screenshot": "/screenshots/AREZDAN.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "THEWEB.COM",
@@ -295,7 +355,9 @@
     "keypresses": null,
     "size": 1855,
     "cycles": 24000,
-    "screenshot": "/screenshots/THEWEB.COM.png"
+    "screenshot": "/screenshots/THEWEB.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "MANWARE.EXE",
@@ -304,7 +366,9 @@
     "keypresses": null,
     "size": 5962,
     "cycles": 24000,
-    "screenshot": "/screenshots/MANWARE.EXE.png"
+    "screenshot": "/screenshots/MANWARE.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "EXPLIZ!.EXE",
@@ -313,7 +377,9 @@
     "keypresses": null,
     "size": 14982,
     "cycles": 24000,
-    "screenshot": "/screenshots/EXPLIZ!.EXE.png"
+    "screenshot": "/screenshots/EXPLIZ!.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "EQUALIZ.EXE",
@@ -322,7 +388,9 @@
     "keypresses": null,
     "size": 4828,
     "cycles": 24000,
-    "screenshot": "/screenshots/EQUALIZ.EXE.png"
+    "screenshot": "/screenshots/EQUALIZ.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "HALLU1ST.COM",
@@ -331,19 +399,20 @@
     "keypresses": null,
     "size": 1058,
     "cycles": 24000,
-    "screenshot": "/screenshots/HALLU1ST.COM.png"
+    "screenshot": "/screenshots/HALLU1ST.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "!!!.EXE",
     "link": "!!!.EXE",
     "command": "!!!.EXE",
-    "keypresses": {
-      "timing": 100,
-      "keys": [{ "key": 27 }]
-    },
+    "keypresses": { "timing": 100, "keys": [{ "key": 27 }] },
     "size": 14909,
     "cycles": 24000,
-    "screenshot": "/screenshots/!!!.EXE.png"
+    "screenshot": "/screenshots/!!!.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "6UWCI2SQ.COM",
@@ -352,7 +421,9 @@
     "keypresses": null,
     "size": 923,
     "cycles": 24000,
-    "screenshot": "/screenshots/6UWCI2SQ.COM.png"
+    "screenshot": "/screenshots/6UWCI2SQ.COM.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "HORINKI.EXE",
@@ -361,7 +432,9 @@
     "keypresses": null,
     "size": 2228,
     "cycles": 24000,
-    "screenshot": "/screenshots/HORINKI.EXE.png"
+    "screenshot": "/screenshots/HORINKI.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "ERREMDY.EXE",
@@ -370,7 +443,9 @@
     "keypresses": null,
     "size": 3823,
     "cycles": 24000,
-    "screenshot": "/screenshots/ERREMDY.EXE.png"
+    "screenshot": "/screenshots/ERREMDY.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "BETAR.EXE",
@@ -379,7 +454,9 @@
     "keypresses": null,
     "size": 2909,
     "cycles": 8000,
-    "screenshot": "/screenshots/BETAR.EXE.png"
+    "screenshot": "/screenshots/BETAR.EXE.png",
+    "nsfw": false,
+    "description": ""
   },
   {
     "file": "E-LS-CON.EXE",
@@ -388,6 +465,85 @@
     "keypresses": null,
     "size": 29473,
     "cycles": 24000,
-    "screenshot": "/screenshots/E-LS-CON.EXE.png"
+    "screenshot": "/screenshots/E-LS-CON.EXE.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "moon.com",
+    "link": "moon.com",
+    "command": "moon.com",
+    "keypresses": null,
+    "size": 2382,
+    "cycles": 24000,
+    "screenshot": "/screenshots/moon.com.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "TOUCHY.COM",
+    "link": "TOUCHY.COM",
+    "command": "TOUCHY.COM",
+    "keypresses": null,
+    "size": 1995,
+    "cycles": 24000,
+    "screenshot": "/screenshots/TOUCHY.COM.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "GALLERIA.COM",
+    "link": "GALLERIA.COM",
+    "command": "GALLERIA.COM",
+    "keypresses": null,
+    "size": 2116,
+    "cycles": 24000,
+    "screenshot": "/screenshots/GALLERIA.COM.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "INCOG.EXE",
+    "link": "INCOG.EXE",
+    "command": "INCOG.EXE",
+    "keypresses": null,
+    "size": 9033,
+    "cycles": 24000,
+    "screenshot": "/screenshots/INCOG.EXE.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "COUCOU.EXE",
+    "link": "COUCOU.EXE",
+    "command": "COUCOU.EXE",
+    "keypresses": null,
+    "size": 13957,
+    "cycles": 24000,
+    "screenshot": "/screenshots/COUCOU.EXE.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "AGONY.EXE",
+    "link": "AGONY.EXE",
+    "command": "AGONY.EXE",
+    "keypresses": null,
+    "size": 7356,
+    "cycles": 24000,
+    "screenshot": "/screenshots/AGONY.EXE.png",
+    "nsfw": false,
+    "description": ""
+  },
+  {
+    "file": "WANNASEX.EXE",
+    "link": "WANNASEX.EXE",
+    "command": "WANNASEX.EXE",
+    "keypresses": null,
+    "size": 19076,
+    "cycles": 24000,
+    "screenshot": "/screenshots/WANNASEX.EXE.png",
+    "nsfw": true,
+    "description": ""
   }
 ]

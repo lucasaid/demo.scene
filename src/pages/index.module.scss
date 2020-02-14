@@ -237,3 +237,15 @@ canvas {
 .crt:hover {
   animation: textShadow 1.6s infinite;
 }
+.blur {
+  img {
+    -webkit-filter: blur(10px);
+    filter: blur(10px);
+  }
+  &:hover {
+    img {
+      -webkit-filter: none;
+      filter: none;
+    }
+  }
+}
