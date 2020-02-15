@@ -11,9 +11,16 @@ const IndexPage = ({
 
   const renderDemos = () => {
     return data.allDemoNode.edges.map((demo: any) => {
+      const renderImage = () => {
+        if (demo.node.screenshot) {
+          return (<img src={demo.node.screenshot} className={styles.image} />)
+        } else {
+          return false
+        }
+      }
       return (<div key={demo.node.id} className={`${styles.demo}`}>
         <Link to={`${demo.node.link}`} className={`${styles.crt} ${demo.node.nsfw ? styles.blur : ""}`}>
-          <img src={demo.node.screenshot} className={styles.image} />
+          {renderImage()}
           {demo.node.file}
         </Link>
       </div>)
@@ -42,6 +49,7 @@ query MyQuery {
         screenshot
         nsfw
         description
+        command
       }
     }
   }

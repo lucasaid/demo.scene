@@ -238,9 +238,10 @@ canvas {
   animation: textShadow 1.6s infinite;
 }
 .blur {
+  overflow: hidden;
   img {
-    -webkit-filter: blur(10px);
-    filter: blur(10px);
+    -webkit-filter: blur(20px);
+    filter: blur(20px);
   }
   &:hover {
     img {

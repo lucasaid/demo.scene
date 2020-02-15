@@ -7,87 +7,7 @@
 // You can delete this file if you're not using it
 const data = require("./content/data.json")
 const fs = require("fs")
-const rimraf = require("rimraf")
-const StreamZip = require("node-stream-zip")
-const archiver = require("archiver")
-const unzip = async zip => {
-  return (promise = new Promise((resolve, reject) => {
-    rimraf.sync("./static/demos/extracted")
-    fs.mkdirSync("./static/demos/extracted")
-    zip.extract(null, "./static/demos/extracted", (err, count) => {
-      console.log(err ? "Extract error" : `Extracted ${count} entries`)
-      resolve()
-    })
-  }))
-}
 
-const getEntries = async zip => {
-  return (promise = new Promise((resolve, reject) => {
-    zip.on("ready", async () => {
-      // Take a look at the files
-      await unzip(zip)
-      let entries = []
-      console.log("Entries read: " + zip.entriesCount)
-      for (const entry of Object.values(zip.entries())) {
-        const desc = entry.isDirectory ? "directory" : `${entry.size} bytes`
-        console.log(`Entry ${entry.name}: ${desc}`)
-        if (!entry.isDirectory && !/__MACOSX/g.test(entry.name)) {
-          if (!fs.existsSync("./static/demos/zipped/")) {
-            fs.mkdirSync("./static/demos/zipped/")
-          }
-          if (
-            !fs.existsSync(__dirname + `/static/demos/zipped/${entry.name}.zip`)
-          ) {
-            var output = fs.createWriteStream(
-              __dirname + `/static/demos/zipped/${entry.name}.zip`
-            )
-            output.on("close", function() {
-              fs.unlink(`./static/demos/extracted/${entry.name}`, () => {})
-            })
-            var archive = archiver("zip", {
-              zlib: { level: 9 }, // Sets the compression level.
-            })
-            archive.pipe(output)
-            archive.file(`./static/demos/extracted/${entry.name}`, {
-              name: entry.name,
-            })
-            archive.finalize()
-          } else {
-            fs.unlink(`./static/demos/extracted/${entry.name}`, () => {})
-          }
-          let found = data.find(demo => demo.file === entry.name)
-          if (!found) {
-            found = {
-              file: entry.name,
-              link: entry.name,
-              command: entry.name,
-              keypresses: null,
-              size: entry.size,
-              cycles: 24000,
-              screenshot: null,
-              nsfw: false,
-              description: "",
-            }
-            data.push(found)
-          }
-          // entries.push({
-          //   file: found.file,
-          //   link: found.file,
-          //   command: found.command,
-          //   keypresses: found.keypresses,
-          //   size: found.size ? found.size : null,
-          // })
-        }
-      }
-      let dataString = JSON.stringify(data)
-      fs.writeFileSync("./content/data.json", dataString)
-      resolve(data)
-
-      // Do not forget to close the file once you're done
-      zip.close()
-    })
-  }))
-}
 exports.sourceNodes = async ({
   actions,
   createNodeId,
@@ -95,15 +15,8 @@ exports.sourceNodes = async ({
 }) => {
   // We'll make the newNode object here for clarity
   let entries = data
-  if (fs.existsSync("./static/demos/demos.zip")) {
-    const zip = new StreamZip({
-      file: "./static/demos/demos.zip",
-      storeEntries: true,
-    })
-    entries = await getEntries(zip)
-  }
   entries.map(entry => {
-    console.log(entry.screenshot + "hello")
+    console.log(entry.screenshot + "helsddsds ")
     actions.createNode({
       ...entry,
       keypresses: entry.keypresses
@@ -135,6 +48,7 @@ exports.createSchemaCustomization = ({ actions }) => {
       """
       type DemoNode implements Node @dontInfer {
         file: String!,
+        title: String,
         link: String!,
         command: String!,
         keypresses: Keypress,
@@ -142,7 +56,8 @@ exports.createSchemaCustomization = ({ actions }) => {
         cycles: String!,
         screenshot: String,
         nsfw: Boolean,
-        description: String
+        description: String,
+        tags: [String],
       }
 
       """

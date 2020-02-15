@@ -70,6 +70,8 @@ yarn-error.log
 
 demos.zip
 /static/demos/extracted/
+/dump
+/static copy/
 .*
 !/.gitignore
 !/.prettierignore
