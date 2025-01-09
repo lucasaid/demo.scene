@@ -16,7 +16,6 @@ exports.sourceNodes = async ({
   // We'll make the newNode object here for clarity
   let entries = data
   entries.map(entry => {
-    console.log(entry.screenshot + "helsddsds ")
     actions.createNode({
       ...entry,
       keypresses: entry.keypresses
