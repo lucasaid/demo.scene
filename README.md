@@ -1,3 +1,6 @@
+A gatsby site built for a showcase of DOS BBS intros, crack intros or demos from the 90's, Note: some demos are flagged as NSFW and are blurred.
+
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.org">
