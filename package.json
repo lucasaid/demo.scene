@@ -8,20 +8,20 @@
     "@blueprintjs/core": "^3.23.1",
     "@blueprintjs/icons": "^3.13.0",
     "gatsby": "^2.19.7",
-    "gatsby-image": "^2.2.39",
+    "gatsby-image": "^2.6.0",
     "gatsby-plugin-manifest": "^2.2.39",
     "gatsby-plugin-offline": "^3.0.32",
     "gatsby-plugin-react-helmet": "^3.1.21",
-    "gatsby-plugin-sass": "^2.1.28",
-    "gatsby-plugin-sharp": "^2.4.3",
+    "gatsby-plugin-sass": "^2.3.1",
+    "gatsby-plugin-sharp": "^2.14.1",
     "gatsby-plugin-typescript": "^2.1.27",
     "gatsby-source-filesystem": "^2.1.48",
     "gatsby-transformer-json": "^2.2.26",
-    "gatsby-transformer-sharp": "^2.3.13",
+    "gatsby-transformer-sharp": "^2.12.1",
     "js-dos": "^6.22.59",
     "js-yaml": "^3.13.1",
     "jszip": "^3.2.2",
-    "node-sass": "^4.13.1",
+    "sass": "^1.77.0",
     "prop-types": "^15.7.2",
     "react": "^16.12.0",
     "react-dom": "^16.12.0",
@@ -41,6 +41,9 @@
     "prettier": "^1.19.1",
     "puppeteer": "^2.1.1",
     "rimraf": "^3.0.2"
+  },
+  "resolutions": {
+    "sharp": "^0.32.6"
   },
   "keywords": [
     "gatsby"

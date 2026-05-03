@@ -13,9 +13,7 @@ exports.sourceNodes = async ({
   createNodeId,
   createContentDigest,
 }) => {
-  // We'll make the newNode object here for clarity
-  let entries = data
-  entries.map(entry => {
+  data.map(entry => {
     actions.createNode({
       ...entry,
       keypresses: entry.keypresses
@@ -24,14 +22,19 @@ exports.sourceNodes = async ({
             keys: entry.keypresses.keys,
           }
         : null,
-      id: createNodeId(`DemoNode-${entry.file}`), // required by Gatsby
+      id: createNodeId(`DemoNode-${entry.file}`),
       internal: {
-        type: "DemoNode", // required by Gatsby
-        contentDigest: createContentDigest(entry.file), // required by Gatsby, must be unique
+        type: "DemoNode",
+        contentDigest: createContentDigest(entry.file),
       },
     })
+  })
+}
+
+exports.createPages = async ({ actions }) => {
+  data.map(entry => {
     actions.createPage({
-      path: entry.link,
+      path: `/${entry.link}`,
       component: require.resolve("./src/templates/basicTemplate.tsx"),
       context: {
         ...entry,

@@ -24,9 +24,15 @@ module.exports = {
         background_color: `#7fdbff`,
         theme_color: `#7fdbff`,
         display: `minimal-ui`,
+        icon: `src/images/gatsby-icon.png`,
       },
     },
-    `gatsby-plugin-sass`,
+    {
+      resolve: `gatsby-plugin-sass`,
+      options: {
+        implementation: require(`sass`),
+      },
+    },
     `gatsby-plugin-typescript`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline

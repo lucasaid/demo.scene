@@ -19,7 +19,7 @@ const IndexPage = ({
         }
       }
       return (<div key={demo.node.id} className={`${styles.demo}`}>
-        <Link to={`${demo.node.link}`} className={`${styles.crt} ${demo.node.nsfw ? styles.blur : ""}`}>
+        <Link to={`/${demo.node.link}`} className={`${styles.crt} ${demo.node.nsfw ? styles.blur : ""}`}>
           {renderImage()}
           {demo.node.file}
         </Link>
