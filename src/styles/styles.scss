@@ -1,6 +1,76 @@
-// @import "../../node_modules/@blueprintjs/icons/lib/css/blueprint-icons";
 @import "../../node_modules/@blueprintjs/core/lib/css/blueprint";
-body {
-  background-color: #7fdbff;
-  font-family: "Courier New", Courier, monospace;
+
+:root {
+  --phosphor:        #39ff14;
+  --phosphor-bright: #a0ff80;
+  --phosphor-dim:    #1e6e10;
+  --phosphor-glow:   rgba(57, 255, 20, 0.35);
+  --phosphor-glow2:  rgba(57, 255, 20, 0.12);
+  --bg:              #010701;
+  --bg-secondary:    #050e05;
+  --bg-tile:         #030a03;
+  --text:            #8ec882;
+  --text-dim:        #3d6637;
+  --border:          #153313;
+  --border-active:   #2d6628;
+  --amber:           #ffaa00;
+  --amber-glow:      rgba(255, 170, 0, 0.4);
+  --red:             #ff3333;
+  --scanline:        rgba(0, 0, 0, 0.18);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  -webkit-font-smoothing: none;
+  background-color: var(--bg);
+  font-family: 'Share Tech Mono', 'Courier New', monospace;
+  color: var(--text);
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+// Blueprint Alert should always float above the canvas
+.bp3-overlay {
+  z-index: 100 !important;
+}
+
+// Blueprint overrides
+.bp3-button {
+  font-family: 'Share Tech Mono', monospace !important;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  font-size: 13px !important;
+}
+
+.bp3-intent-primary .bp3-button,
+.bp3-button.bp3-intent-primary {
+  background: var(--border-active) !important;
+  color: var(--phosphor) !important;
+  box-shadow: 0 0 8px var(--phosphor-glow), inset 0 0 12px rgba(57,255,20,0.1) !important;
+  border: 1px solid var(--phosphor-dim) !important;
+
+  &:hover {
+    background: var(--phosphor-dim) !important;
+    box-shadow: 0 0 16px var(--phosphor-glow), 0 0 32px var(--phosphor-glow2) !important;
+  }
+}
+
+.bp3-intent-warning .bp3-button,
+.bp3-button.bp3-intent-warning {
+  background: #3d2800 !important;
+  color: var(--amber) !important;
+  box-shadow: 0 0 8px var(--amber-glow) !important;
+  border: 1px solid #7a5200 !important;
+}
+
+.bp3-intent-success .bp3-button,
+.bp3-button.bp3-intent-success {
+  background: var(--border) !important;
+  color: var(--phosphor) !important;
+  border: 1px solid var(--border-active) !important;
 }

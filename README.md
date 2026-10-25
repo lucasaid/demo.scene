@@ -1,6 +1,6 @@
 # demo.scene
 
-A Gatsby site built for a showcase of DOS BBS intros, crack intros, and demos from the 90s. Some demos are flagged as NSFW and are blurred until clicked.
+A Gatsby site built for a showcase of DOS BBS intros, crack intros, and demos from the 90s.
 
 ## What it does
 
